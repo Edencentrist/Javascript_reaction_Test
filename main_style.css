@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+  background-color: #e3e6ee;
+  color: #0f1424;
+  font-size: 25px;
+}
+
+.dark-mode {
+  background-color: #0f1424;
+  color: #ffffff;
+}
+
+button{
+    color: #344BA0;
+    background-color: #bcc6e9; 
+    font-weight: bolder;
+    cursor: pointer;
+    border: none;
+    padding: 15px 32px;
+  }
+
+  button:hover{
+    color: rgb(255, 255, 255);
+    text-shadow:
+    0 0 5px #ffffff;
+  }
+
+  .toggled{
+    color: #bcc6e9;
+    background-color: #344BA0;
+}
+
+#modeswitch {
+  position:fixed;
+  bottom: 50px;
+  right: 0px;
+}
+
+/*Font classes*/
+/*Sans Serif - for major headings*/
+.oswald {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  }
+
+/*Sans Serif - for sub headings*/
+.Dosis {
+  font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+/*Serif - for bodies of text*/
+.Tinos {  
+  font-family: "Tinos", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+  /*Font weights and alignments (GENERIC)*/
+h1{
+  font-size: 180px;
+  text-align: center;
+  text-shadow:
+  0 0 20px #00000065,
+  0 0 40px #00000065,
+  0 0 60px #00000065;
+  color: #ffffff;
+  transform: translateY(30px);
+}
+h2{
+  font-size: 80px;
+  text-align: center;
+  text-shadow: 
+  0 0 20px #00000065,
+  0 0 40px #00000065,
+  0 0 60px #00000065;
+  color: #ffffff;
+  transform: translateY(-120px);
+}
+
+/*navigation bar*/
+.nav {
+  overflow: hidden;
+  background-color: #272d3d;
+  letter-spacing: 5px;
+}
+
+.nav a {
+  float: left;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.nav a:hover {
+  background-color: #e3e6ee;
+  color: black;
+}
+
+.nav a.active {
+  background-color: #464d61;
+  color: white;
+  font-weight: bolder;
+}
+
+.pin{
+  display: block;
+  margin: auto;
+  width: 50px;
+  height: 50px;
+}
+
+.aus{
+  width: 50px;
+  height: 50px;  
+  transform: translateY(-796px);
+  display: block;
+  margin-left: auto;
+}
+
+/*Landing Page Image*/
+.landing{ /**/
+  background-image: url(media/Landing.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: top;
+}
